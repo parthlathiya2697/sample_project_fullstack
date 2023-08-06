@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  backend:
+    image: "sample-project-backend:latest"
+
+  frontend:
+    image: "sample-project-frontend:latest"
