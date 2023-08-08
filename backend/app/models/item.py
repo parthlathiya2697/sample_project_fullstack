@@ -29,3 +29,8 @@ class Item(Base):
     )
 
     value: Mapped[str | None]
+    name: Mapped[str]
+    notes: Mapped[str | None]
+    completed: Mapped[bool] = mapped_column(default=False)
+    duration: Mapped[float | None]  # Fix the field name here
+

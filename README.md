@@ -117,3 +117,20 @@ Configure the [**build-push-action**](https://github.com/marketplace/actions/bui
 
 Created with [FastAPI Starter](https://github.com/gaganpreet/fastapi-starter)
 # sample_project_fullstack
+
+
+# Changes made to the original template
+A todo item should have the following properties:
+	- Name of ToDo
+	- Notes for Todo - this is a long text field where a user can enter many notes Ability to mark the todo as complete
+	- Should be associated with the user that created it
+	- Ability to report on average duration to complete a todo
+
+Modification the existing system to show a front page (HomePageContent) when a user is not logged in that has a summary of the statistics about the existing todos. e.g. 
+	- how many are outstanding,
+	- average per user,
+	- average duration for todo to be completed
+
+Please note that my schedule was busy on the weekend so I began to work afterwards, 
+I've completed frontend and backend tasks, but I didn't have time to write tests.
+Thanks for consideration.
